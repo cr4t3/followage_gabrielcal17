@@ -50,7 +50,7 @@ function renderValue(selector, value) {
 function tick_sound() {
   const x = ticking_queue[0];
   ticking_queue.shift();
-  const y = new Audio("/assets/audio/" + x + ".mp3")
+  const y = new Audio("/followage_gabrielcal17/assets/audio/" + x + ".mp3")
   y.play();
   ticking_queue.push(x)
 }
