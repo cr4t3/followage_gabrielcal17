@@ -85,6 +85,3 @@ window.addEventListener("load", () => {
     console.log("particles.js config loaded");
   });
 });
-
-
-}
